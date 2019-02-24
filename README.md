@@ -28,3 +28,6 @@ Para usar las funciones del sistema, se debe usar el siguiente comando en la lin
 El atributo ***nombre_del_directorio_del_cliente*** corresponde al nombre que se da al directorio en el que se almacenan los datos del cliente, incluidos los conjuntos de datos que seran usados por el sistema.
 
 El método ***nombre_del_proceso_a_ejecutar*** corresponde a la acción que se requiere realizar por el sistema. Los métodos permitidos son:
+
+python -c 'import provider_services; provider_services.data_sources_etl("cliente_test")'
+python -c 'import provider_services; provider_services.algorithm_priorization("cliente_test")'
