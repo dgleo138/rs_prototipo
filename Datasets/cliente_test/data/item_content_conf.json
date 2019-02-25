@@ -1,0 +1,34 @@
+{
+        "input_type":"item_content",
+        "is_json":true,
+        "file_type_information":{
+         "sql_connection":"sqlite:///Datasets/chinook.db", 
+         "sql_queryType":"table or query",
+         "sql_query":"table_name or 'SELECT * from employees'",
+         "sql_columns":["column1","column2","column3","column4"],
+         "csv_headers":false,
+         "csv_separator":",", 
+         "json_lines":true,
+         "json_no_lines_record_path":"",
+         "json_no_lines_meta":["",""]
+     },
+        "key_map":{
+            "item_id":"asin",
+            "item_description":{
+                "descripcion_item":"reviewText",
+                "titulo_item":"summary"
+            }, 
+            "other_features":{
+                "lista_item":"helpful",
+                "Nombre_item":"reviewerName"
+            }, 
+            "remove_content":"",
+            "content_weight":{
+             "descripcion_item": 0.9,
+             "lista_item": 0.2,
+             "Nombre_item": 0.1,
+             "titulo_item": 0.7
+         }
+        }
+        
+    }

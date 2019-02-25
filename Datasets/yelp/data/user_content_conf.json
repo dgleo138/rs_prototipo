@@ -1,0 +1,43 @@
+{
+        "input_type":"user_content",
+        "is_json":false,
+        "file_type_information":{
+         "sql_connection":"sqlite:///Datasets/chinook.db", 
+         "sql_queryType":"table or query",
+         "sql_query":"table_name or 'SELECT * from employees'",
+         "sql_columns":["column1","column2","column3","column4"],
+         "csv_headers":true,
+         "csv_separator":",", 
+         "json_lines":true,
+         "json_no_lines_record_path":"",
+         "json_no_lines_meta":["",""]
+     },
+        
+        "key_map":{
+            "user_id":"user_id",
+            "user_description":"",
+            "other_features":{
+                "review_count":"review_count",
+                "yelping_since":"yelping_since",
+                "useful":"useful",
+                "funny":"funny",
+                "cool":"cool",
+                "fans":"fans",
+                "elite":"elite",
+                "average_stars":"average_stars",
+                "compliment_hot":"compliment_hot",
+                "compliment_more":"compliment_more",
+                "compliment_profile":"compliment_profile",
+                "compliment_cute":"compliment_cute",
+                "compliment_list":"compliment_list",
+                "compliment_note":"compliment_note",
+                "compliment_plain":"compliment_plain",
+                "compliment_cool":"compliment_cool",
+                "compliment_funny":"compliment_funny",
+                "compliment_writer":"compliment_writer",
+                "compliment_photos":"compliment_photos"
+            },
+            "remove_content":"",
+            "content_weight":""
+        }
+    }

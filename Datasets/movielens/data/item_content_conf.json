@@ -1,0 +1,45 @@
+{
+        "input_type":"item_content",
+        "is_json":false,
+        "file_type_information":{
+         "sql_connection":"sqlite:///Datasets/chinook.db", 
+         "sql_queryType":"table or query",
+         "sql_query":"table_name or 'SELECT * from employees'",
+         "sql_columns":["column1","column2","column3","column4"],
+         "csv_headers":true,
+         "csv_separator":",", 
+         "json_lines":true,
+         "json_no_lines_record_path":"",
+         "json_no_lines_meta":["",""]
+     },
+        "key_map":{
+            "item_id":"movieId",
+            "item_description":"", 
+            "other_features":{
+                "year":"year",
+                "no_genres":"(no genres listed)",
+                "Action":"Action",
+                "Adventure":"Adventure",
+                "Animation":"Animation",
+                "Children":"Children",
+                "Comedy":"Comedy",
+                "Crime":"Crime",
+                "Documentary":"Documentary",
+                "Drama":"Drama",
+                "Fantasy":"Fantasy",
+                "Film_Noir":"Film-Noir",
+                "Horror":"Horror",
+                "IMAX":"IMAX",
+                "Musical":"Musical",
+                "Mystery":"Mystery",
+                "Romance":"Romance",
+                "SciFi":"Sci-Fi",
+                "Thriller":"Thriller",
+                "War":"War",
+                "Western":"Western"
+            }, 
+            "remove_content":"",
+            "content_weight":""
+        }
+        
+    }

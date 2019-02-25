@@ -1,0 +1,33 @@
+{
+     "input_type":"explicit", 
+     "is_json":false,
+     "file_type_information":{
+         "sql_connection":"sqlite:///Datasets/chinook.db", 
+         "sql_queryType":"table or query",
+         "sql_query":"table_name or 'SELECT * from employees'",
+         "sql_columns":["column1","column2","column3","column4"],
+         "csv_headers":true,
+         "csv_separator":",", 
+         "json_lines":true,
+         "json_no_lines_record_path":"",
+         "json_no_lines_meta":["",""]
+     },
+     "key_map":{
+         "rating":"stars",
+         "user_id":"user_id",
+         "item_id":"business_id",
+         "timestamp":"date",
+         "event_side_features":{
+             "useful":"useful",
+             "funny":"funny",
+             "cool":"cool"
+         },
+         "rating_config":{
+             "min_rating":1,
+             "max_rating":5,
+             "min_rating_for_validation":0
+         },
+         "remove_content":"",
+         "min_interactions_per_user":5
+     }
+    }

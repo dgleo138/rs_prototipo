@@ -1,0 +1,34 @@
+{
+     "input_type":"implicit", 
+     "is_json":true,
+     "file_type_information":{
+         "sql_connection":"sqlite:///Datasets/chinook.db", 
+         "sql_queryType":"table or query",
+         "sql_query":"table_name or 'SELECT * from employees'",
+         "sql_columns":["column1","column2","column3","column4"],
+         "csv_headers":false,
+         "csv_separator":",", 
+         "json_lines":true,
+         "json_no_lines_record_path":"",
+         "json_no_lines_meta":["",""]
+     },
+     "key_map":{
+         "event_name":"",
+         "value":"overall",
+         "user_id":"reviewerID",
+         "item_id":"asin",
+         "timestamp":"unixReviewTime",
+         "event_side_features":{
+             "reviewerName":"reviewerName"
+         },
+         "event_weight":{
+             "VIEW": 1.0,
+             "LIKE": 2.0, 
+             "BOOKMARK": 2.5, 
+             "FOLLOW": 3.0,
+             "COMMENT CREATED": 4.0
+         },
+         "remove_content":"",
+         "min_interactions_per_user":5
+     }
+    }

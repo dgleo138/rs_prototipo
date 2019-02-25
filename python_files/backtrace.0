@@ -1,0 +1,103 @@
+Pointers
+------------
+0x10ba11b2d
+0x10bc0fb6d
+0x10a4cd96e
+0x10a4ccb2e
+0x10b9b74a0
+0x10b9782ed
+0x10ba97d6b
+0x10bb960b5
+0x10b78c441
+0x10b78e13d
+0x10b80c4bc
+0x10c0695b2
+0x10ea465a9
+0x10ea57b3b
+0x100ad79e3
+0x100acfde2
+0x100adc4b6
+0x100ad740a
+0x100acfde2
+0x100adc4b6
+0x100ad740a
+0x100adc596
+0x100ad740a
+0x100adc596
+0x100ad740a
+0x100acfde2
+0x100acf756
+0x100afe774
+0x100afe297
+0x100b1420c
+0x7fff52854015
+Raw
+------------
+0   libunity_shared.dylib               0x000000010ba11b2d _Z18__print_back_tracev + 157
+1   libunity_shared.dylib               0x000000010bc0fb6d _ZN4turi13v2_block_impl13block_manager20num_blocks_in_columnENSt3__15tupleIJmmEEE + 861
+2   libunity_shared.dylib               0x000000010a4cd96e _ZN4turi23sarray_format_reader_v2INS_13flexible_typeEE4openENS_22index_file_informationE + 430
+3   libunity_shared.dylib               0x000000010a4ccb2e _ZN4turi13sarray_readerINS_13flexible_typeEE18open_format_readerERKNS_6sarrayIS1_EE + 126
+4   libunity_shared.dylib               0x000000010b9b74a0 _ZN4turi13sarray_readerINS_13flexible_typeEE4initERKNS_6sarrayIS1_EERKNSt3__16vectorImNS7_9allocatorImEEEE + 48
+5   libunity_shared.dylib               0x000000010b9782ed _ZNK4turi6sarrayINS_13flexible_typeEE10get_readerERKNSt3__16vectorImNS3_9allocatorImEEEE + 253
+6   libunity_shared.dylib               0x000000010ba97d6b _ZN4turi13sframe_reader4initERKNS_6sframeEm + 1003
+7   libunity_shared.dylib               0x000000010bb960b5 _ZNK4turi6sframe10get_readerEv + 277
+8   libunity_shared.dylib               0x000000010b78c441 _ZN4turi10query_eval21sort_sframe_in_memoryENSt3__110shared_ptrINS0_12planner_nodeEEERKNS1_6vectorINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS9_ISB_EEEERKNS5_ImNS9_ImEEEERKNS5_IbNS9_IbEEEE + 561
+9   libunity_shared.dylib               0x000000010b78e13d _ZN4turi10query_eval4sortENSt3__110shared_ptrINS0_12planner_nodeEEENS1_6vectorINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS9_ISB_EEEERKNS5_ImNS9_ImEEEERKNS5_IbNS9_IbEEEE + 3629
+10  libunity_shared.dylib               0x000000010b80c4bc _ZN4turi10query_eval7ec_sortENSt3__110shared_ptrINS0_12planner_nodeEEENS1_6vectorINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS9_ISB_EEEERKNS5_ImNS9_ImEEEERKNS5_IbNS9_IbEEEE + 332
+11  libunity_shared.dylib               0x000000010c0695b2 _ZN4turi12unity_sframe4sortERKNSt3__16vectorINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS6_IS8_EEEERKNS2_IiNS6_IiEEEE + 610
+12  cy_sframe.so                        0x000000010ea465a9 _ZL63__pyx_f_10turicreate_6cython_9cy_sframe_16UnitySFrameProxy_sortP58__pyx_obj_10turicreate_6cython_9cy_sframe_UnitySFrameProxyP7_objectNSt3__16vectorIiNS3_9allocatorIiEEEEi + 713
+13  cy_sframe.so                        0x000000010ea57b3b _ZL66__pyx_pw_10turicreate_6cython_9cy_sframe_16UnitySFrameProxy_81sortP7_objectS0_S0_ + 395
+14  libpython2.7.dylib                  0x0000000100ad79e3 PyEval_EvalFrameEx + 30627
+15  libpython2.7.dylib                  0x0000000100acfde2 PyEval_EvalCodeEx + 1666
+16  libpython2.7.dylib                  0x0000000100adc4b6 fast_function + 118
+17  libpython2.7.dylib                  0x0000000100ad740a PyEval_EvalFrameEx + 29130
+18  libpython2.7.dylib                  0x0000000100acfde2 PyEval_EvalCodeEx + 1666
+19  libpython2.7.dylib                  0x0000000100adc4b6 fast_function + 118
+20  libpython2.7.dylib                  0x0000000100ad740a PyEval_EvalFrameEx + 29130
+21  libpython2.7.dylib                  0x0000000100adc596 fast_function + 342
+22  libpython2.7.dylib                  0x0000000100ad740a PyEval_EvalFrameEx + 29130
+23  libpython2.7.dylib                  0x0000000100adc596 fast_function + 342
+24  libpython2.7.dylib                  0x0000000100ad740a PyEval_EvalFrameEx + 29130
+25  libpython2.7.dylib                  0x0000000100acfde2 PyEval_EvalCodeEx + 1666
+26  libpython2.7.dylib                  0x0000000100acf756 PyEval_EvalCode + 54
+27  libpython2.7.dylib                  0x0000000100afe774 PyRun_FileExFlags + 164
+28  libpython2.7.dylib                  0x0000000100afe297 PyRun_SimpleFileExFlags + 711
+29  libpython2.7.dylib                  0x0000000100b1420c Py_Main + 3084
+30  libdyld.dylib                       0x00007fff52854015 start + 1
+
+Demangled
+------------
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+-------------------------------------------------------
+
+
