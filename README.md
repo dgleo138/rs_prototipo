@@ -14,10 +14,13 @@ Este prototipo se usa para validar un sistema de recomendación que estandariza 
 ## Directorios y Archivos:
 1. python_files: Contiene todos los archivos con código en Python.
 2. Datasets: Contiene los directorios de los proveedores o clientes del sistema.
- 2.1. *Nombre_cliente:*
-  2.1.1. *data:* Contiene los archivos de configuración y los directorios que almacenan los archivos con datos para diferentes fuentes de información.
-  2.1.2. *data_backup:* Almacena los archivos de datos procesados para las diferentes fuentes de información
-  2.1.3. *database:* Contiene la base de datos del cliente, los modelos entrenados y las predicciones para hibridaciones.
+  - *Nombre_cliente:* Permite almacenar los datos de un cliente específico
+      - *data:* Directorio que contiene los archivos de configuración y los directorios que almacenan los archivos con datos para diferentes fuentes de información.
+        - fuente_información: (ejemplo: explicit) Directorio que contiene todos los archivos con datos que serán usados como entrada para los algoritmos de recomendación para la fuente de información especifica. Los archivos deben tener el mismo formato (csv, json) y estructura, los cuales deben corresponder en lo definido en el archivo de configuración para la fuente específica.
+        - configuración_fuente_datos: (ejemplo: explicit_conf.json) En este archivo se definen propiedades de los archivos de datos a usar por la fuente específica. Acá se define el tipo y formato de archivo, el mapeo de la estructura de datos original a la estructura usada por los algoritmos y algunas opciones de limpieza de datos. 
+      - *data_backup:* Directorio que almacena los archivos de datos procesados para las diferentes fuentes de información
+      - *database:* Directorio que contiene la base de datos del cliente, los modelos entrenados y las predicciones para hibridaciones.
+      - *config.ini:* Archivo de configuración que contiene todas las propiedades generales de ejecución para el cliente.
 
 ## Conjuntos de datos
 
