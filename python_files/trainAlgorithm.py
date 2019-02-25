@@ -388,3 +388,19 @@ class trainAlgorithm:
             #result_model.save(self.models_path+model)
 
         return {"status":True, "result":""}
+
+    # Popularity Model
+    def custom_popularity(df):
+        try:
+            # Se agrupan todos los eventos que ha tenido un usuario con un item y se suman los valores de target para esa relación
+            df = df \
+                            .groupby(['user_id', 'item_id'])['target'].sum() \
+                            .apply(common.smooth_user_preference).reset_index()
+
+            # Se suman los valores de target en todos los usuarios para cada item 
+            df = df.groupby('item_id')['target'].sum().sort_values(ascending=False).reset_index()
+            df['Rank'] = df['target'].rank(ascending=0, method='first')
+
+            return {"status":True, "result":df}
+        except ValueError as e:
+            return {"status":False, "result":"There was an error trying to compute custom_popularity. Error: "+str(e)}

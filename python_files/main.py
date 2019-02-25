@@ -164,8 +164,8 @@ class main:
             print("Removing users DONE")
 
             dataset_len = len(input_data.index)
-            if((self.min_population_constraint == 0) or (dataset_len <= self.min_population_constraint)):
-                statistical_significance = False
+            #if((self.min_population_constraint == 0) or (dataset_len <= self.min_population_constraint)):
+             #   statistical_significance = False
 
             # Si no se requiere test de significancia estadistica
             if(statistical_significance == False):
