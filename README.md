@@ -1,6 +1,8 @@
 # rs_prototipo
 Prototipo para validar el diseño de sistema de recomendación propuesto en el trabajo de grado de la maestría en profundización.
 
+Este prototipo se usa para validar un sistema de recomendación que estandariza los conjuntos de datos y presenta un mecanismo que explora diferentes algoritmos, prioriza y selecciona el que mejor lo hace según un conjunto de métricas definidas.
+
 ## Dependencias:
  - Python versión 3.7.0
  - pandas: https://pandas.pydata.org/pandas-docs/stable/install.html
@@ -9,11 +11,13 @@ Prototipo para validar el diseño de sistema de recomendación propuesto en el t
  - numpy: https://scipy.org/install.html
  - configparser: https://pypi.org/project/configparser/
  
-## Directorios:
-
-
-## Archivos
-
+## Directorios y Archivos:
+1. python_files: Contiene todos los archivos con código en Python.
+2. Datasets: Contiene los directorios de los proveedores o clientes del sistema.
+ 2.1. *Nombre_cliente:*
+  2.1.1. *data:* Contiene los archivos de configuración y los directorios que almacenan los archivos con datos para diferentes fuentes de información.
+  2.1.2. *data_backup:* Almacena los archivos de datos procesados para las diferentes fuentes de información
+  2.1.3. *database:* Contiene la base de datos del cliente, los modelos entrenados y las predicciones para hibridaciones.
 
 ## Conjuntos de datos
 
