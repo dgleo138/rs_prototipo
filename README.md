@@ -23,10 +23,8 @@ Este prototipo se usa para validar un sistema de recomendación que estandariza 
       - *config.ini:* Archivo de configuración que contiene todas las propiedades generales de ejecución para el cliente.
 
 ## Conjuntos de datos
-Los conjuntos de datos usados en la validación del prototipo, se comparten en los siguientes enlaces:
-1. Movielens:
-2. Amazon:
-3. Yelp:
+Los conjuntos de datos usados en la validación del prototipo se comparten en el siguiente enlace: https://eafit-my.sharepoint.com/:f:/g/personal/dgonza37_eafit_edu_co/ErHzJslkaENMsfr7ai6ypdkBMx0S3OXapYC9lEuEu88GUg?e=QwChcM
+
 
 ## Funciones y paso a paso:
 
@@ -41,3 +39,8 @@ Comando: **python -c 'import provider_services; provider_services.data_sources_e
 2. Priorizar los algoritmos haciendo uso de los datos estandarizados de un cliente. Es necesario haber ejecutado previamente el proceso de estandarización de datos del cliente para el que se van a priorizar los algoritmos. Se debe cambiar *nombre_del_directorio_del_cliente* por el nombre del cliente o directorio para el que se quiere ejecutar el proceso. Por ejemplo: Amazon.
 
 Comando: **python -c 'import provider_services; provider_services.algorithm_priorization("*nombre_del_directorio_del_cliente*")'**
+
+
+
+Dider León González Arroyave
+Correo: dgonza37@eafit.edu.co
